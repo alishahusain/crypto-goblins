@@ -60,10 +60,11 @@ describe('LotteryContract Unit Test', function () {
 
 
 });
+
 */
 `
 Issues :
-ATTEMPT    :        -RUN THE BUY TICKET FUNCTION WITH THE CONTRACT AS IS-
+ATTEMPT    :        -RUN THE BUY TICKET FUNCTION WITH THE CONTRACT AS IS
         FAIL        ERROR   :  * Error: Big number problem with 18 digits.  * 
                     ATTEMPT :    -TEMPORARILY change from PRICE = 5000000000000000000; to PRICE = 50 and AMOUNT = 6000000000000000000 to AMOUNT = 60; to continue testing -
         FAIL        ERROR :     * Transaction reverted without a reason string *
