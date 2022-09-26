@@ -3,5 +3,6 @@ const deployments = require('./data/deployments');
 
 module.exports = [
     deployments.stakedPupzMainnet,
-    deployments.stackv2LpTokenMainnet
+    deployments.stackv2LpTokenMainnet,
+    deployments.bumblebeeMainnet
 ]
