@@ -17,7 +17,7 @@ contract AlienFarmGenesis is ERC721Enumerable, Ownable {
     mapping (address => bool) public presaleWhitelist;
     
 
-    //supply counters 
+    //supply counter
     uint256 public total;
     uint256 public presaleTotal = 50;
     uint256 public totalCrop = 500;
